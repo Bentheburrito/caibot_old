@@ -1,6 +1,6 @@
 const commando = require('discord.js-commando');
 const fs = require('fs');
-const { saveSessionCache, loadSessionCache } = require('./ps2_functions/sessionFunctions.js');
+const { saveSessionCache, loadSessionCache } = require(__dirname + '/ps2_functions/sessionFunctions.js');
 
 require('dotenv').config();
 
@@ -153,11 +153,11 @@ client.publicRoles = [];
 client.start = async () => {
 
 	// Get static data.
-	client.weaponNames = JSON.parse(fs.readFileSync('./static_data/weaponNames.json'));
-	client.IVIWeaponIDs = JSON.parse(fs.readFileSync('./static_data/IVIWeaponIDs.json'));
-	client.vehicleTypes = JSON.parse(fs.readFileSync('./static_data/vehicleTypes.json'));
-	client.experienceTypes = JSON.parse(fs.readFileSync('./static_data/experienceTypes.json'));
-	client.eventInfo = JSON.parse(fs.readFileSync('./static_data/eventInfo.json'));
+	client.weaponNames = JSON.parse(fs.readFileSync(__dirname + '/static_data/weaponNames.json'));
+	client.IVIWeaponIDs = JSON.parse(fs.readFileSync(__dirname + '/static_data/IVIWeaponIDs.json'));
+	client.vehicleTypes = JSON.parse(fs.readFileSync(__dirname + '/static_data/vehicleTypes.json'));
+	client.experienceTypes = JSON.parse(fs.readFileSync(__dirname + '/static_data/experienceTypes.json'));
+	client.eventInfo = JSON.parse(fs.readFileSync(__dirname + '/static_data/eventInfo.json'));
 
 	// Initialize managers.
 	client.db = new DatabaseManager();
@@ -185,7 +185,7 @@ client.start = async () => {
 	let discordManager = new DiscordManager();
 	discordManager.init(client);
 
-	runFilesAt('./timers', true);
+	runFilesAt(__dirname + '/timers', true);
 }
 
 client.uptime = () => Date.now() - client.startedTimestamp;
