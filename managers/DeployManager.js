@@ -26,7 +26,7 @@ class DeployManager {
 			if (request.query.secret && request.query.secret == process.env.sauce && branchName != 'development') {
 				await client.guilds.get('381258048527794197').channels.get('381258231613227020').send('New push to master detected, pulling from GitHub...');
 
-				exec(`git checkout -- ./ && git pull git@github.com:Bentheburrito/ps2status master`, async (e, stdout, stderror) => {
+				exec(`git checkout -- ./ && git pull git@github.com:Bentheburrito/caibot master`, async (e, stdout, stderror) => {
 					if (e) {
 						console.log(e);
 						response.send(e).status(500)
