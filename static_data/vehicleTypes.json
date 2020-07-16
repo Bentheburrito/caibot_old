@@ -1,0 +1,237 @@
+[
+	{
+		"vehicle_id": "0",
+		"name": "None",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "1",
+		"name": "Flash",
+		"cost": "50"
+	},
+	{
+		"vehicle_id": "2",
+		"name": "Sunderer",
+		"cost": "200"
+	},
+	{
+		"vehicle_id": "3",
+		"name": "Lightning",
+		"cost": "350"
+	},
+	{
+		"vehicle_id": "4",
+		"name": "Magrider",
+		"cost": "450"
+	},
+	{
+		"vehicle_id": "5",
+		"name": "Vanguard",
+		"cost": "450"
+	},
+	{
+		"vehicle_id": "6",
+		"name": "Prowler",
+		"cost": "450"
+	},
+	{
+		"vehicle_id": "7",
+		"name": "Scythe",
+		"cost": "350"
+	},
+	{
+		"vehicle_id": "8",
+		"name": "Reaver",
+		"cost": "350"
+	},
+	{
+		"vehicle_id": "9",
+		"name": "Mosquito",
+		"cost": "350"
+	},
+	{
+		"vehicle_id": "10",
+		"name": "Liberator",
+		"cost": "450"
+	},
+	{
+		"vehicle_id": "11",
+		"name": "Galaxy",
+		"cost": "450"
+	},
+	{
+		"vehicle_id": "12",
+		"name": "Harasser",
+		"cost": "150"
+	},
+	{
+		"vehicle_id": "13",
+		"name": "Drop Pod",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "14",
+		"name": "Valkyrie",
+		"cost": "250"
+	},
+	{
+		"vehicle_id": "15",
+		"name": "ANT",
+		"cost": "200"
+	},
+	{
+		"vehicle_id": "100",
+		"name": "Xiphos Anti-Personnel Phalanx Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "101",
+		"name": "MANA Anti-Personnel Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "102",
+		"name": "MANA Anti-Vehicle Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "103",
+		"name": "Spitfire Auto-Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "104",
+		"name": "Spitfire Auto-Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "105",
+		"name": "AA SpitFire Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "150",
+		"name": "Aspis Anti-Aircraft Phalanx Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "151",
+		"name": "Spear Anti-Vehicle Phalanx Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "160",
+		"name": "Spear Anti-Vehicle Tower",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "161",
+		"name": "Aspis Anti-Aircraft Phalanx Tower",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "162",
+		"name": "Xiphos Anti-Personnel Tower",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "163",
+		"name": "Glaive IPC",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "1012",
+		"name": "None.",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "1013",
+		"name": "Recon Drone",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2006",
+		"name": "Spear Anti-Vehicle Phalanx Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2007",
+		"name": "Colossus",
+		"cost": "1000000"
+	},
+	{
+		"vehicle_id": "2008",
+		"name": "Drop Pod",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2009",
+		"name": "Xiphos Anti-Personnel Phalanx Turret",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2010",
+		"name": "Flash",
+		"cost": "50"
+	},
+	{
+		"vehicle_id": "2011",
+		"name": "Forward Station",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2019",
+		"name": "Bastion Fleet Carrier",
+		"cost": "1000000"
+	},
+	{
+		"vehicle_id": "2021",
+		"name": "Glaive IPC",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2033",
+		"name": "Javelin",
+		"cost": "10"
+	},
+	{
+		"vehicle_id": "2036",
+		"name": "Pumpkin Patch",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2039",
+		"name": "Deliverer Prototype",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2040",
+		"name": "Wasp Prototype",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2122",
+		"name": "Mosquito Interceptor",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2123",
+		"name": "Reaver Interceptor",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2124",
+		"name": "Scythe Interceptor",
+		"cost": "0"
+	},
+	{
+		"vehicle_id": "2125",
+		"name": "Javelin",
+		"cost": "100"
+	},
+	{
+		"vehicle_id": "2128",
+		"name": "Spitfire Auto-Turret",
+		"cost": "0"
+	}
+]

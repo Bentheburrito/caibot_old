@@ -1,0 +1,26 @@
+{
+  "name": "ps2status",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=12.16.1"
+  },
+  "author": "Snowful#1513",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "github:discordjs/Commando#djs-v11",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.6.5",
+    "node-cleanup": "^2.1.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "ws": "^7.0.0"
+  }
+}
