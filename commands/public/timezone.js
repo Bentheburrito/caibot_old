@@ -8,7 +8,7 @@ module.exports = class TimezoneCommand extends commando.Command {
 			name: 'timezone',
 			group: 'public',
 			memberName: 'timezone',
-			description: 'Set your time zone for event/continent alerts.',
+			description: 'Set your time zone for event/continent alerts. __Usage__: !timezone',
 			throttling: {
                 usages: 2,
                 duration: 60
